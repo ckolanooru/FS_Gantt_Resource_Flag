@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>FS_GanttResourceFlagDateCtrl</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>FS_GanttResourceFlagGanttDates</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>FS_GanttResourceFlagList</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>FS_GanttResourceFlagToday</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>FSL__Temporary_Service_Appointment_List</name>
+    </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>FS_Gantt_Resource_Flag</name>
+    </customPermissions>
+    <description>Access to the FS Gantt Resource Flag custom actions (Apex classes, Visualforce page and custom permission) in the Dispatcher Console.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>FS Gantt Resource Flag Dispatcher</label>
+    <pageAccesses>
+        <apexPage>FS_GanttResourceFlagDate</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+</PermissionSet>

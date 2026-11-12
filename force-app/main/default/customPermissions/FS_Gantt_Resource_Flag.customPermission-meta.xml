@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Controls who sees the FS Gantt Resource Flag custom actions (Flag Tasks - Today / Gantt Dates / Specific Date) on the Dispatcher Console Gantt resource menu.</description>
+    <isLicensed>false</isLicensed>
+    <label>FS Gantt Resource Flag</label>
+</CustomPermission>

@@ -1,0 +1,9 @@
+<apex:page controller="FS_GanttResourceFlagDateCtrl" showHeader="false" sidebar="false" lightningStylesheets="true" title="Flag Tasks - Specific Date" docType="html-5.0">
+    <apex:form style="padding:12px;font-family:Arial,sans-serif;font-size:13px;">
+        <h3>Flag tasks for a specific date</h3>
+        <apex:pageMessages id="msgs"/>
+        <p>Date: <apex:input type="date" value="{!selectedDate}"/>
+           &nbsp;<apex:commandButton value="Load to appointment list" action="{!run}" rerender="msgs"/></p>
+        <p style="color:#706e6b;">Close this window, then in the appointment list: Select All &gt; Flag.</p>
+    </apex:form>
+</apex:page>
